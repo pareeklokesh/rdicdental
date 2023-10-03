@@ -116,11 +116,11 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Blog</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Sleep Dentistry
+        <li class="nav-item dropdown-itemsc position-relative">
+          <a class="nav-link" href="#" id="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Sleep Dentistry <i class="fa-solid fa-caret-down"></i>
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <ul class="dropdown-menu-sub">
             <li><a class="dropdown-item" href="#">Action</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><hr class="dropdown-divider"></li>
@@ -144,12 +144,19 @@
 <div class="main w-100 overflow-hidden">
 
 	<div class="banner w-100 position-relative">
-		<img src="assets/img/banner.png" data-aos="fade-down" class="w-100 position-relative" alt="rdicdental" style="z-index: 1;" />
+		<img src="assets/img/banner.png" class="w-100 position-relative d-none d-md-block" alt="rdicdental" style="z-index: 1;" />
+		<img src="assets/img/bannermb.png" class="w-100 position-relative d-block d-md-none" alt="rdicdental" style="z-index: 1;" />
+		<div class="banner-content position-absolute start-0 end-0">
+			<h1 class="main-title" data-aos="fade-down">Your Journey to<br /> <strong>Dental Wellness</strong><br />Starts Here</h1>
+		</div>
 		<div class="container-fluid start-0 w-100 roorkee-block mb-5">
+			<div class="row justify-content-center">
+				<div class="w-auto"><h2 class="bannersub-title" data-aos="fade-down">ROORKEE DENTAL IMPLANT CENTRE</h2></div>
+			</div>
 			<div class="row overflow-hidden justify-content-center banner-bottom" style="gap:4px;flex-wrap: inherit;">
-				<div class="col-lg-3 col-md-6 d-none d-lg-block banner-box position-relative" data-aos="fade-right">
-					<div class="w-100 position-relative ps-5 pt-5 mt-4 d-flex justify-content-end pe-5">
-						<div class="w-auto pt-4">
+				<div class="col-lg-3 col-md-6 d-none d-lg-flex align-items-center justify-content-center banner-box position-relative" data-aos="fade-right">
+					<div class="w-100 position-relative ps-5 pt-0 mt-0 d-flex justify-content-end pe-5">
+						<div class="w-auto pt-0">
 						<h3 class="banner-title">opening hours</h3>
 						<p class="time-sed"><strong class="d-block">sun - fri</strong>10:00 am - 2:00 pm<br />5:00 pm - 7:30 pm</p>
 						<p class="time-sed"><strong class="d-block">saturday</strong>Closed</p>
@@ -161,17 +168,17 @@
 					</div>
 
 				</div>
-				<div class="col-lg-3 col-12 col-md-6 banner-box position-relative" data-aos="fade-right">
-					<div class="w-100 position-relative pt-5 mt-4 d-flex justify-content-center px-4">
-						<img class="w-100 mt-4" src="assets/img/google-review.png" alt />
+				<div class="col-lg-3 col-12 col-md-6 d-flex align-items-center justify-content-center banner-box position-relative" data-aos="fade-right">
+					<div class="w-100 position-relative pt-0 mt-0 d-flex justify-content-center px-4">
+						<img class="w-100 mt-0" src="assets/img/google-review.png" alt />
 					</div>
 					<div class="w-100 text-center position-absolute bottom-0 start-0 mb-5">
 						<button class="btn btn-all text-uppercase">Write a review</button>
 					</div>
 				</div>
-				<div class="col-lg-3 col-12 col-md-6 mt-4 mt-md-0 banner-box position-relative" data-aos="fade-left">
-					<div class="w-100 position-relative ps-0 pt-5 mt-4 d-flex justify-content-center pe-0">
-						<div class="w-100 pt-4">
+				<div class="col-lg-3 col-12 col-md-6 mt-4 mt-md-0 d-flex align-items-center justify-content-center banner-box position-relative" data-aos="fade-left">
+					<div class="w-100 position-relative ps-0 pt-0 mt-0 d-flex justify-content-center pe-0">
+						<div class="w-100 pt-0">
 						<h3 class="banner-title text-center">book an appointment</h3>
 						<p class="text-center px-4 appointment-text">Call us now to schedule your appointment, we arerunning discount promos for online enqueries .  </p>
 						<a href="tel:+91 9897583788" class="text-center d-block appointment-link">+91 9897583788</a>
@@ -182,9 +189,10 @@
 					</div>
 
 				</div>
-				<div class="col-lg-3 col-md-6 banner-box position-relative d-none d-lg-block" data-aos="fade-left">
-					<div class="w-100 position-relative ps-5 pt-5 mt-4 d-flex justify-content-end pe-5">
-						<img class="w-100" src="assets/img/map.png" />
+				<div class="col-lg-3 col-md-6 banner-box position-relative d-none d-lg-flex align-items-center justify-content-center" data-aos="fade-left">
+					<div class="position-relative p-0 pt-0 mt-0 d-flex justify-content-end pe-0" style="height: 70%; width: 85%;">
+						<!-- <img class="w-100" src="assets/img/map.png" /> -->
+						<iframe class="position-relative rounded w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3460.287206401754!2d77.87615871552126!3d29.855989934404644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb39eea59ac6d%3A0x7027dd311e7c456!2sRoorkee%20Dental%20Implant%20Centre!5e0!3m2!1sen!2sin!4v1658628792047!5m2!1sen!2sin" frameborder="0" style=" border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 					</div>
 				</div>
 			</div>
@@ -238,7 +246,7 @@
 
 		<div class="col-md-6 p-0 px-md-2">
 			<div class="w-100" data-aos="fade-up">
-				<h2 class="section-title text-center text-white mb-5 bg-transparent d-flex justify-content-center mt-5"><strong class="section-title-sub">Who we are ?</strong></h2>
+				<h2 class="section-title text-center text-white mb-3 mb-md-5 bg-transparent d-flex justify-content-center mt-5"><strong class="section-title-sub">Who we are ?</strong></h2>
 				<p class="mb-0 text-center text-black sec-des p-0 m-auto" style="width: 88%;">Roorkee Dental Implant Centre is a leading dental clinic in Roorkee, known for its expertise in dental treatments and dental implantology. Our commitment to excellence, state-of-the-art facilities, and a pateint-centric approach make us the preferred choice for dental care in the region .</p>
 			</div>
 			<div class="w-100 my-4 pe-md-4 whychoose-list-img whychoose-list-end pb-md-4 position-relative ps-md-4" data-aos="fade-up">
@@ -251,25 +259,26 @@
 				<p class="text-prime text-center" style="font-size: 11px;font-family: 'Montserrat', sans-serif;">Post your query here, and get a  free <br>consultation and smile analysis</p>
 
 				<form class="queries-form m-auto mt-4">
-  <div class="mb-3 position-relative">
-    <label for="exampleInputEmail1" class="form-label">Name*</label>
-    <input type="text" class="form-control" id="" />
+  <div class="mb-3 position-relative overflow-hidden">
+    
+    <input type="text" placeholder="Name *" class="form-control" id="name" />
+    <label for="name" class="form-label">Name <span>*</span></label>
   </div>
-  <div class="mb-3 position-relative">
-    <label for="exampleInputEmail1" class="form-label">Email Address*</label>
-    <input type="email" class="form-control" id="" />
+  <div class="mb-3 position-relative overflow-hidden">
+    <input type="email" placeholder="Email Address *" class="form-control" id="emailadd" />
+    <label for="emailadd" class="form-label">Email Address <span>*</span></label>
   </div>
-  <div class="mb-3 position-relative">
-    <label for="exampleInputEmail1" class="form-label">Phone Number*</label>
-    <input type="text" class="form-control" id="" />
+  <div class="mb-3 position-relative overflow-hidden">
+    <input type="text" placeholder="Phone Number *" class="form-control" id="pnumber" />
+    <label for="pnumber" class="form-label">Phone Number <span>*</span></label>
   </div>
-  <div class="mb-3 position-relative">
-    <label for="exampleInputEmail1" class="form-label">Patient Type*</label>
-    <input type="text" class="form-control" id="" />
+  <div class="mb-3 position-relative overflow-hidden">
+    <input type="text" placeholder="Patient Type *" class="form-control" id="patienttype" />
+    <label for="patienttype" class="form-label">Patient Type <span>*</span></label>
   </div>
-  <div class="mb-3 position-relative">
-    <label for="exampleInputEmail1" class="form-label">Message*</label>
-    <textarea class="form-control"></textarea>
+  <div class="mb-3 position-relative overflow-hidden">
+    <textarea class="form-control" placeholder="Message *" id="textarea"></textarea>
+    <label for="textarea" class="form-label" style="top:10px;bottom: auto;">Message <span>*</span></label>
   </div>
   <div class="text-center mt-4">
   <button type="submit" class="btn btn-all">Submit</button>
@@ -296,7 +305,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-3 p-md-0 p-3" data-aos="fade-right">
+				<div class="col-md-3 p-md-0 px-3" data-aos="fade-right">
 					<div class="w-100  position-relative overlay-img overflow-hidden">
 					<img class="w-100" src="assets/img/rdic1.png" />
 					<div class="position-absolute top-0 h-100 start-0 w-100 d-flex align-items-center overlay">
@@ -305,7 +314,7 @@
 				</div>
 				</div>
 				
-				<div class="col-md-3  p-md-0 p-3" data-aos="fade-up">
+				<div class="col-md-3  p-md-0 px-3" data-aos="fade-up">
 					<div class="w-100  position-relative overlay-img overflow-hidden">
 					<img class="w-100" src="assets/img/rdic2.png" />
 					<div class="position-absolute top-0 h-100 start-0 w-100 d-flex align-items-center overlay">
@@ -313,7 +322,7 @@
 					</div>
 				</div>
 				</div>
-				<div class="col-md-3 p-md-0 p-3" data-aos="fade-up">
+				<div class="col-md-3 p-md-0 px-3" data-aos="fade-up">
 					<div class="w-100  position-relative overlay-img overflow-hidden">
 					<img class="w-100" src="assets/img/rdic3.png" />
 					<div class="position-absolute top-0 h-100 start-0 w-100 d-flex align-items-center overlay">
@@ -321,7 +330,7 @@
 					</div>
 				</div>
 				</div>
-				<div class="col-md-3 p-md-0 p-3" data-aos="fade-left">
+				<div class="col-md-3 p-md-0 px-3" data-aos="fade-left">
 					<div class="w-100  position-relative overlay-img overflow-hidden">
 					<img class="w-100" src="assets/img/rdic4.png" />
 					<div class="position-absolute top-0 h-100 start-0 w-100 d-flex align-items-center overlay">
@@ -329,7 +338,7 @@
 					</div>
 				</div>
 				</div>
-				<div class="col-md-3 p-md-0 p-3" data-aos="fade-right">
+				<div class="col-md-3 p-md-0 px-3" data-aos="fade-right">
 					<div class="w-100  position-relative overlay-img overflow-hidden">
 					<img class="w-100" src="assets/img/braces.png" />
 					<div class="position-absolute top-0 h-100 start-0 w-100 d-flex align-items-center overlay">
@@ -337,7 +346,7 @@
 					</div>
 				</div>
 				</div>
-				<div class="col-md-3 p-md-0 p-3" data-aos="fade-down">
+				<div class="col-md-3 p-md-0 px-3" data-aos="fade-down">
 					<div class="w-100  position-relative overlay-img overflow-hidden">
 					<img class="w-100" src="assets/img/rdic6.png" />
 					<div class="position-absolute top-0 h-100 start-0 w-100 d-flex align-items-center overlay">
@@ -346,7 +355,7 @@
 				</div>
 				</div>
 
-				<div class="col-md-3 p-md-0 p-3" data-aos="fade-down">
+				<div class="col-md-3 p-md-0 px-3" data-aos="fade-down">
 					<div class="w-100  position-relative overlay-img overflow-hidden">
 					<img class="w-100" src="assets/img/rdic7.png" />
 					<div class="position-absolute top-0 h-100 start-0 w-100 d-flex align-items-center overlay">
@@ -355,7 +364,7 @@
 				</div>
 				</div>
 
-				<div class="col-md-3 p-md-0 p-3" data-aos="fade-left">
+				<div class="col-md-3 p-md-0 px-3" data-aos="fade-left">
 					<div class="w-100  position-relative overlay-img overflow-hidden">
 					<img class="w-100" src="assets/img/rdic3.png" />
 					<div class="position-absolute top-0 h-100 start-0 w-100 d-flex align-items-center overlay">
@@ -372,7 +381,7 @@
 	</div>
 
 	<!-- Customers Testimonials -->
-	<div class="container-fluid primeBg mt-3 testimonial d-none d-md-block">
+	<div class="container-fluid primeBg mt-3 testimonial pb-md-0 pb-5">
 		<div class="container position-relative">
 			<div class="row justify-content-center">
 				<div class="col-10 pt-5" data-aos="fade-down">
@@ -460,15 +469,26 @@
 			</div>
 			</div>
 
-			<div class="row">
+			<div class="row d-none d-md-block">
 				<div class="col-12 text-center mt-4 mb-5" data-aos="fade-down">
 					<button class="btn btn-all">View All</button>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row d-none d-md-block">
 				<div class="col-12 d-flex justify-content-center mb-4" data-aos="fade-up"><h3 class="bg-white text-prime fw-bolder px-3 py-2">Patient Video Testimonials</h3></div>
 			</div>
-			<div class="row">
+			<div class="row justify-content-center d-none d-md-flex">
+                <div class="col-md-4 text-center mb-5">
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FRDICUK%2Fvideos%2F1011095330277938%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                </div>
+                <div class="col-md-4 text-center mb-5">
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FRDICUK%2Fvideos%2F394247689478577%2F&show_text=false&width=314&t=0" width="314" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                </div>
+                <div class="col-md-4 text-center mb-5">
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FRDICUK%2Fvideos%2F600301321733960%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                </div>
+            </div>
+			<!-- <div class="row d-none d-md-flex">
 				<div class="col-md-4 mb-5" data-aos="fade-right">
 					<div class="w-100 rounded text-center p-3 patient-block p-4">
 						<div class="row align-items-center">
@@ -514,13 +534,13 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 
 <!-- Connect Now -->
 
-<div class="container-fluid text-center contactnowblock py-5">
+<div class="container-fluid text-center contactnowblock py-5 pt-5">
 	<h2 data-aos="fade-up">Connect Now</h2>
 	<p class="m-0 mt-2" data-aos="fade-down">Call or Whatsapp us  <i class="fa-brands fa-whatsapp" style="color:#FFC700;"></i>   on <a href="tel:+91 9897583788" style="color:#FFC700;">+91 9897583788</a> or drop us a mail at <a href="mailto:info@rdicdental.com" style="color:#FFC700;">info@rdicdental.com</a> </p>
 </div>
@@ -597,14 +617,46 @@
 			<p class="mb-5" data-aos="fade-right" style="font-size:16px">Over the course of these five years, there has been a consistent increase in the number of dental implant cases performed at RDIC. This growth demonstrates a positive trend in the adoption and success of dental implant procedures among patients. The hospital's expertise and advancements in dental implant technology are likely contributing factors to this upward trajectory. As the number of cases continues to rise. RDIC solidifies its reputation as a center of excellence in dental implantation and oral healthcare</p>
 			<img src="assets/img/img.png" data-aos="fade-right" alt="" />
 		</div>
-		<div class="col-md-5">
+		<!-- <div class="col-md-5">
 			<img src="assets/img/img1.png" data-aos="fade-left" alt="" />
+		</div> -->
+		<div class="col-md-5">
+			<div class="d-flex align-items-end justify-content-end" style="gap: 	20px;">
+				<div class="position-relative mt-4" data-aos="fade-up">
+			<div class="cases-block opacity-25"></div>
+			<div  class="year-number position-absolute w-100 pb-5 d-flex align-items-center justify-content-center bottom-0"><strong>2019</strong></div>
+			<p class="m-0 position-absolute w-100 text-start casenm-block"><b>98</b><sub>Cases</sub></p>
 		</div>
+		<div class="position-relative mt-4" data-aos="fade-up">
+			<div class="cases-block opacity-50" style="height: 26vh;"></div>
+			<div  class="year-number position-absolute w-100 pb-5 d-flex align-items-center justify-content-center bottom-0"><strong>2019</strong></div>
+			<p class="m-0 position-absolute w-100 text-start casenm-block"><b>100</b><sub>Cases</sub></p>
+		</div>
+		<div class="position-relative mt-4" data-aos="fade-up">
+			<div class="cases-block opacity-75" style="height: 33vh;"></div>
+			<div  class="year-number position-absolute w-100 pb-5 d-flex align-items-center justify-content-center bottom-0"><strong>2019</strong></div>
+			<p class="m-0 position-absolute w-100 text-start casenm-block"><b>143</b><sub>Cases</sub></p>
+		</div>
+		<div class="position-relative mt-4" data-aos="fade-up">
+			<div class="cases-block opacity-75" style="height: 42vh;"></div>
+			<div  class="year-number position-absolute w-100 pb-5 d-flex align-items-center justify-content-center bottom-0"><strong>2019</strong></div>
+			<p class="m-0 position-absolute w-100 text-start casenm-block"><b>235</b><sub>Cases</sub></p>
+		</div>
+		<div class="position-relative mt-4" data-aos="fade-up">
+			<div class="cases-block" style="height: 53vh;"></div>
+			<div  class="year-number position-absolute w-100 pb-5 d-flex align-items-center justify-content-center bottom-0"><strong>2019</strong></div>
+			<div  class="year-number position-absolute pb-5 d-flex align-items-center justify-content-center bottom-0"><strong class="" style="white-space: nowrap;position: relative;top: -12px;left: 10px;">* End of August</strong></div>
+			<p class="m-0 position-absolute w-100 text-start casenm-block"><b>250</b><sub>Cases</sub></p>
+		</div>
+
+		</div>
+		</div>
+
 	</div>
 	</div>
 </div>
 
-<footer class="container-fluid secondColor">
+<footer class="container-fluid secondColor footer-block">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
@@ -755,6 +807,7 @@
 
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/popper.min.js"></script>
 <script type="text/javascript" src="assets/js/aos.js"></script>
 <script type="text/javascript" src="assets/owl-carousel/js/owl.carousel.min.js"></script>
 
@@ -778,6 +831,15 @@
           }
         }
       })
+    </script>
+
+    <script>
+    	let dropdownItem = document.querySelector('.dropdown-itemsc');
+let dropdownmenusub = document.querySelector('.dropdown-menu-sub');
+dropdownItem.addEventListener('click', function(){
+    dropdownmenusub.classList.toggle('submenuopen');
+});
+
     </script>
 
 </body>
