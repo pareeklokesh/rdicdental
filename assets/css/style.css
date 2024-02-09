@@ -1066,6 +1066,9 @@ padding: 0;
   margin-bottom: 0;
   line-height: 28px;
 }
+.highlights-block .progress-title {
+  line-height: 32px;
+}
 
 @media (max-width:767px) {
   .order-mb .col-md-6:first-child {
@@ -1077,6 +1080,9 @@ padding: 0;
 .highlights-block .progress-title {
   margin-bottom: 15px;
   font-size: 18px;
+}
+.highlights-block .progress-title {
+  line-height: 28px;
 }
 .content-sec {
   font-size: 14px;
