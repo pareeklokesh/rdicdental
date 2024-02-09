@@ -93,7 +93,7 @@ a {
 	font-size: 18px;
 }
 .main-header .navbar li a {
-  line-height: 29.26px;
+  line-height: 21.26px;
   font-size: 24px;
   font-weight: 400;
   color: #000;
@@ -699,6 +699,9 @@ footer.footer-block {
 }
 
 @media (max-width: 767px) {
+  .main-header .navbar-brand img {
+  width: 100px;
+}
   .opening-text {
   font-size: 12px;
   font-weight: 400;
